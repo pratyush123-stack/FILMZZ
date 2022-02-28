@@ -1,0 +1,79 @@
+.banner{
+    height: 448px;
+    position: relative;
+    color: white;
+    object-fit:contain;
+}
+.banner_contents{
+    margin-left: 0px;
+    padding-top: 210px;
+    height: 190px;
+}
+.banner_title{
+    margin-left: 50px;
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0,3reml;
+}   
+.banner_desc{
+    margin-left: 50px;
+    width: 45rem;
+    line-height: 1.3;
+    padding-top:1rem;
+    font-size: 0.8rem;
+    max-width: 360px;
+    height:80px;
+}
+.banner_button1{
+    margin-left: 50px;
+    cursor: pointer;
+    color:#fff;
+    outline:none;
+    border: none;
+    font-weight:700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    width: 100px;
+    height:30px;
+    padding-top:0.5rem;
+    background-color:rgba(51, 51, 51, 0.5);
+    padding-bottom:0.5rem;
+}
+.banner_button2{
+    cursor: pointer;
+    color:#fff;
+    outline:none;
+    border: none;
+    font-weight:700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    width: 100px;
+    height:30px;
+    padding-top:0.5rem;
+    background-color:rgba(51, 51, 51, 0.5);
+    padding-bottom:0.5rem;
+}
+.banner_button1:hover{
+    color:#000;
+    background-color:#e6e6e6;
+    transition: all 0.3s;
+}
+.banner_button2:hover{
+    color:#000;
+    background-color:#e6e6e6;
+    transition: all 0.3s;
+}
+.banner_foot{
+    padding-left:0px;
+    height:3rem;
+    background-image: linear-gradient(
+        180deg, 
+        transparent, 
+        rgba(37, 37, 37, 0.61),
+        black
+    );
+}

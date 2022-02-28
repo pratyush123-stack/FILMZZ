@@ -1,0 +1,98 @@
+.LoginScreen{
+    position: relative;
+    height: 100vh;
+    background: url("https://www.ppt-backgrounds.net/thumbs/the-edge-is-black-royal-blue-design-background.jpeg")
+        center no-repeat;
+    background-size: cover;
+}
+.LoginScreen_Gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0,0,0,0.4);
+    background-image: linear-gradient(
+        rgba(0,0,0,0.8) 0,
+        rgba(0,0,0,0) 60%,
+        rgba(0,0,0,0.8) 100%
+    );
+}
+
+.LoginScreen_Logo{
+    position: fixed;
+    left: 0;
+    width: 100px;
+    object-fit: contain;
+    padding-left: 20px;
+    padding-top: 20px;
+    transition: transform 450ms
+}
+.LoginScreen_Logo:hover{
+    transform: scale(1.05)
+}
+
+.LoginScreen_button{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    color: black;
+    background-color: rgb(16, 168, 206);
+    border:hidden;
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 450ms
+}
+
+.LoginScreen_button:hover{
+    transform: scale(1.05)
+}
+
+.LoginScreen_body > h2{
+    font-size:2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.LoginScreen_body > h1{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.LoginScreen_body > h3{
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.LoginScreen_body{
+    position: absolute;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    color: #fff;
+    padding: 0px;
+    left: 0;
+    right: 0;
+}
+.LoginScreen_input > form > input{
+    padding: 10px;
+    outline-width: 0;
+    height:27px;
+    width:50%;
+    border: none;
+    max-width: 400px;
+}
+.LoginScreen_input_getstarted{
+    padding: 16px 20px;
+    font-size: 1.rem;
+    color: black;
+    background-color: rgba(16, 168, 206);
+    border: none;
+    cursor: pointer;
+    transition: transform 450ms
+}
+
+.LoginScreen_input_getstarted:hover{
+    transform: scale(1.05);
+
+}
